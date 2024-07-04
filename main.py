@@ -9,7 +9,7 @@ class LLMInterface:
     def __init__(self, master):
         self.master = master
         self.master.title("Interface LLM 🤖")
-        self.master.geometry("540x400")
+        self.master.geometry("540x450")
         self.master.configure(bg="white")
 
         # Modelo LLM
@@ -23,14 +23,14 @@ class LLMInterface:
 
     def create_widgets(self):
         # Criação da entrada de dados
-        self.entry_label = tk.Label(self.master, bg="grey", text="Digite seu texto:")
+        self.entry_label = tk.Label(self.master, bg="white", text="Digite seu texto:")
         self.entry_label.grid(row=0, column=0, padx=10, pady=10)
 
-        self.entry = tk.Entry(self.master, width=50)
+        self.entry = tk.Entry(self.master, width=50,)
         self.entry.grid(row=0, column=1, padx=10, pady=10)
 
         # Criação do botão de enviar
-        self.submit_button = tk.Button(self.master, text="Enviar 🚀", command=self.on_submit)
+        self.submit_button = tk.Button(self.master, text="Enviar 🚀", command=self.on_submit,  bg="white", borderwidth=2, relief="groove")
         self.submit_button.grid(row=0, column=2, padx=10, pady=10)
 
         # Criação da área de texto para mostrar a resposta
