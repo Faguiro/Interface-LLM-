@@ -20,14 +20,17 @@ Este repositório contém uma aplicação de interface gráfica construída com 
 
 1. Clone o repositório:
 
-   ```git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio ```
+   ```git clone https://github.com/Faguiro/Interface-LLM-.git```
+   
+   ```cd Interface-LLM-```
 
 2. Instale as dependências do projeto:
+
 ```pip install llm gif_player```
 
 
 3. Execute a aplicação:
+
 ```python main.py```
 
 ## Estrutura do Projeto
