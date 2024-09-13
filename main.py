@@ -49,7 +49,6 @@ class LLMInterface:
         self.entry.config(state=tk.DISABLED)
         self.submit_button.config(state=tk.DISABLED)
 
-
         # Desativar o botão 
         self.save_button.grid_forget()
 
@@ -72,7 +71,7 @@ class LLMInterface:
         self.entry.config(state=tk.NORMAL)
         self.submit_button.config(state=tk.NORMAL)
 
-    def prompt(self, text):  
+    def prompt(self, text): 
         text_br = f"{text}. Responda em português brasileiro"
         response = self.model.prompt(text_br)
         return response.text()  
