@@ -26,7 +26,7 @@ Este repositório contém uma aplicação de interface gráfica construída com 
 
 2. Instale as dependências do projeto:
 
-```pip install llm gif_player```
+```pip install llm``
 
 
 3. Execute a aplicação:
