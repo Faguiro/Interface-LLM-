@@ -20,13 +20,13 @@ Este repositório contém uma aplicação de interface gráfica construída com 
 
 1. Clone o repositório:
 
-   ```git clone https://github.com/Faguiro/Interface-LLM-.git```
+   ```git clone https://github.com/Faguiro/ollama_tkinter.git```
    
-   ```cd Interface-LLM-```
+   ```cd ollama_tkinter```
 
 2. Instale as dependências do projeto:
 
-```pip install llm``
+```pip install llm```
 
 
 3. Execute a aplicação:
